@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9458A330290AC6DD00AE3924 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9458A32F290AC6DD00AE3924 /* Info.plist */; };
 		946F5127290A752D0030C961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F5126290A752D0030C961 /* AppDelegate.swift */; };
 		946F5129290A752D0030C961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F5128290A752D0030C961 /* ViewController.swift */; };
 		946F512B290A752F0030C961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946F512A290A752F0030C961 /* Assets.xcassets */; };
 		946F512E290A752F0030C961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946F512C290A752F0030C961 /* Main.storyboard */; };
-		946F5139290A752F0030C961 /* prac_MacOS_MenuBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F5138290A752F0030C961 /* prac_MacOS_MenuBarTests.swift */; };
 		946F5143290A752F0030C961 /* prac_MacOS_MenuBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F5142290A752F0030C961 /* prac_MacOS_MenuBarUITests.swift */; };
 		946F5145290A752F0030C961 /* prac_MacOS_MenuBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F5144290A752F0030C961 /* prac_MacOS_MenuBarUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9458A32F290AC6DD00AE3924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		946F5123290A752D0030C961 /* prac_MacOS_MenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prac_MacOS_MenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946F5126290A752D0030C961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		946F5128290A752D0030C961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		946F512D290A752F0030C961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		946F512F290A752F0030C961 /* prac_MacOS_MenuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = prac_MacOS_MenuBar.entitlements; sourceTree = "<group>"; };
 		946F5134290A752F0030C961 /* prac_MacOS_MenuBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prac_MacOS_MenuBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		946F5138290A752F0030C961 /* prac_MacOS_MenuBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prac_MacOS_MenuBarTests.swift; sourceTree = "<group>"; };
 		946F513E290A752F0030C961 /* prac_MacOS_MenuBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prac_MacOS_MenuBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		946F5142290A752F0030C961 /* prac_MacOS_MenuBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prac_MacOS_MenuBarUITests.swift; sourceTree = "<group>"; };
 		946F5144290A752F0030C961 /* prac_MacOS_MenuBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prac_MacOS_MenuBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -76,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				946F5125290A752D0030C961 /* prac_MacOS_MenuBar */,
-				946F5137290A752F0030C961 /* prac_MacOS_MenuBarTests */,
 				946F5141290A752F0030C961 /* prac_MacOS_MenuBarUITests */,
 				946F5124290A752D0030C961 /* Products */,
 			);
@@ -100,16 +99,9 @@
 				946F512A290A752F0030C961 /* Assets.xcassets */,
 				946F512C290A752F0030C961 /* Main.storyboard */,
 				946F512F290A752F0030C961 /* prac_MacOS_MenuBar.entitlements */,
+				9458A32F290AC6DD00AE3924 /* Info.plist */,
 			);
 			path = prac_MacOS_MenuBar;
-			sourceTree = "<group>";
-		};
-		946F5137290A752F0030C961 /* prac_MacOS_MenuBarTests */ = {
-			isa = PBXGroup;
-			children = (
-				946F5138290A752F0030C961 /* prac_MacOS_MenuBarTests.swift */,
-			);
-			path = prac_MacOS_MenuBarTests;
 			sourceTree = "<group>";
 		};
 		946F5141290A752F0030C961 /* prac_MacOS_MenuBarUITests */ = {
@@ -227,6 +219,7 @@
 			files = (
 				946F512B290A752F0030C961 /* Assets.xcassets in Resources */,
 				946F512E290A752F0030C961 /* Main.storyboard in Resources */,
+				9458A330290AC6DD00AE3924 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946F5139290A752F0030C961 /* prac_MacOS_MenuBarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
