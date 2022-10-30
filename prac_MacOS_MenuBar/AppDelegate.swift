@@ -6,7 +6,7 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     var statusItem: NSStatusItem = {
-        NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength )
+        NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     }()
     
     var popover: NSPopover = {
